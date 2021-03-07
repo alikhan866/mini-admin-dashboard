@@ -1,0 +1,68 @@
+@import '~antd/dist/antd.css';
+
+.site-layout-content {
+  min-height: 600px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.ant-layout {
+  height: 100vh;
+}
+
+#Submit{
+  width: 400px;
+  height: 40px;
+  background-color: #1890ff;
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+}
+#Submit:hover{
+  cursor: pointer;
+  background-color: #0072dd;
+  /* box-shadow: 2.5px 2.5px 0px 0px #0072dd54; */
+}
+#Submit:focus{
+  outline: none;
+}
+
+.Label-Container{
+  width: 100px;
+  display: inline-block;
+}
+
+.ant-btn{
+  width: 400px;
+  height: 45px;
+  font-size: large;
+  border-radius: 12px;
+}
+.Button-css{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-btn:hover,:focus{
+  /* box-shadow: 2.5px 2.5px 0px 0px #0072dd54; */
+  
+  cursor: pointer;
+}
+
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
