@@ -14,3 +14,11 @@ This repository contains a mini admin dashboard for adding,deleting and updating
 ### State management
 
 `redux` is used for state management in the application ( i.e to update,delete and adding users ) 
+
+### Steps to run the project
+
+1) Make sure `node` is installed in your system
+
+2) `npm install`
+
+3) `npm start`
